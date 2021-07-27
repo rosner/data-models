@@ -1,6 +1,6 @@
 # Stored procedures
 
-Below you can read about stored procedured defined for the Snowflake modules. They are defined under the `{{.output_schema}}` and you can find the source code [here](./01-main/01-stored-procedures.sql).
+Below you can read about stored procedures defined for the Snowflake modules. They are defined under the `{{.output_schema}}` and you can find the source code [here](./01-main/01-stored-procedures.sql).
 
 For modularity, they are recreated in the first step of all `01-main` playbooks and they are explicitly dropped in the `XX-destroy` steps.
 
